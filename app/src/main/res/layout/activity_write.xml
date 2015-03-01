@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_header_selector">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".35">
+        <TextView
+            android:id="@+id/text_in_box"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="Start Using your Myo to Type!"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:text="Current:"/>
+        <TextView
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:id="@+id/current_letter"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <Button
+                style="@style/button"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/reset_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset Text"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                style="@style/button"
+                android:id="@+id/connect_button_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connect"
+                android:layout_marginLeft="10dp"/>
+            <Button
+
+                android:layout_marginBottom="10dp"
+                style="@style/button"
+                android:id="@+id/clear_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+                android:layout_marginLeft="10dp" />
+            </LinearLayout>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Use your Myo to write!"
+            />
+        </LinearLayout>
+
+</LinearLayout>

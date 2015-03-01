@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_header_selector">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MotionSpace"
+        android:layout_marginBottom="20dp"
+        android:textSize="55dp"/>
+
+    <Button
+        android:textSize="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        style="@style/button"
+        android:id="@+id/learn_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Learn"/>
+    <Button
+        android:textSize="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        style="@style/button"
+        android:id="@+id/write_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Write"/>
+    <Button
+        android:textSize="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        style="@style/button"
+        android:id="@+id/why_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Why?"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Use Myo to quickly learn Morse Code!"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make a Fist for Short"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spread your Fingers for Long"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move In to Signal the end of a Word"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move Out to Signal the end of a Letter"/>
+
+</LinearLayout>

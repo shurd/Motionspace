@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_header_selector">
+    <TextView
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Welcome to the next level of language immersion.  Welcome to MotionSpace.\n\n
+
+Our team feels that the language learning methods of today are not intuitive enough. Research suggests that learning new concepts in conjunction with body gestures and motions can improve learning speed and retention rates.\n\n
+
+We believe that the Myo, brought to us by Thalmic Labs, is the key to better language learning methods over the next decade.  Our Android application was integrated with the Myo SDK to create a functional and immersive learning environment.  Right now, our product incorporations gestures from the Myo to teach the user basic and advance skills in Morse Code.\n\n
+
+Welcome to the future of language immersion:\n\n
+
+MotionSpace."/>
+
+</LinearLayout>
